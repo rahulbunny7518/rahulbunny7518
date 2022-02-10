@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="MyFirstSuite">
+	<test name="MyFirstTest">
+		<classes>
+			<class name="TestAutomation.TestNG.AppTest" />
+            <class name="TestAutomation.TestNG.TestIgnore" />
+
+		</classes>
+	</test>
+</suite>

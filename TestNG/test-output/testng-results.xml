@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-10T22:37:54 IST" name="Default suite" finished-at="2022-02-10T22:37:54 IST" duration-ms="70">
+    <groups>
+      <group name="basicOperation">
+        <method signature="TestLibrary.testActivateUser()[pri:0, instance:TestAutomation.TestNG.TestLibrary@5a63f509]" name="testActivateUser" class="TestAutomation.TestNG.TestLibrary"/>
+        <method signature="TestLibrary.testAddBook()[pri:0, instance:TestAutomation.TestNG.TestLibrary@5a63f509]" name="testAddBook" class="TestAutomation.TestNG.TestLibrary"/>
+        <method signature="TestLibrary.testAddMember()[pri:0, instance:TestAutomation.TestNG.TestLibrary@5a63f509]" name="testAddMember" class="TestAutomation.TestNG.TestLibrary"/>
+        <method signature="TestLibrary.testAddMember(int,java.lang.String,java.lang.String,java.lang.String,int)[pri:0, instance:TestAutomation.TestNG.TestLibrary@5a63f509]" name="testAddMember" class="TestAutomation.TestNG.TestLibrary"/>
+        <method signature="TestLibrary.testAddToLibrary()[pri:0, instance:TestAutomation.TestNG.TestLibrary@5a63f509]" name="testAddToLibrary" class="TestAutomation.TestNG.TestLibrary"/>
+        <method signature="TestLibrary.testAssignBookToMember()[pri:0, instance:TestAutomation.TestNG.TestLibrary@5a63f509]" name="testAssignBookToMember" class="TestAutomation.TestNG.TestLibrary"/>
+        <method signature="TestLibrary.testFindBookById()[pri:0, instance:TestAutomation.TestNG.TestLibrary@5a63f509]" name="testFindBookById" class="TestAutomation.TestNG.TestLibrary"/>
+        <method signature="TestLibrary.testFindMemberById()[pri:0, instance:TestAutomation.TestNG.TestLibrary@5a63f509]" name="testFindMemberById" class="TestAutomation.TestNG.TestLibrary"/>
+        <method signature="TestLibrary.testIssueBook()[pri:0, instance:TestAutomation.TestNG.TestLibrary@5a63f509]" name="testIssueBook" class="TestAutomation.TestNG.TestLibrary"/>
+        <method signature="TestLibrary.testRemoveBook()[pri:0, instance:TestAutomation.TestNG.TestLibrary@5a63f509]" name="testRemoveBook" class="TestAutomation.TestNG.TestLibrary"/>
+        <method signature="TestLibrary.testSearchByBookName()[pri:0, instance:TestAutomation.TestNG.TestLibrary@5a63f509]" name="testSearchByBookName" class="TestAutomation.TestNG.TestLibrary"/>
+        <method signature="TestLibrary.testdeActivateUser()[pri:0, instance:TestAutomation.TestNG.TestLibrary@5a63f509]" name="testdeActivateUser" class="TestAutomation.TestNG.TestLibrary"/>
+      </group> <!-- basicOperation -->
+      <group name="Alltests">
+        <method signature="TestLibrary.testActivateUser()[pri:0, instance:TestAutomation.TestNG.TestLibrary@5a63f509]" name="testActivateUser" class="TestAutomation.TestNG.TestLibrary"/>
+        <method signature="TestLibrary.testAddBook()[pri:0, instance:TestAutomation.TestNG.TestLibrary@5a63f509]" name="testAddBook" class="TestAutomation.TestNG.TestLibrary"/>
+        <method signature="TestLibrary.testAddMember()[pri:0, instance:TestAutomation.TestNG.TestLibrary@5a63f509]" name="testAddMember" class="TestAutomation.TestNG.TestLibrary"/>
+        <method signature="TestLibrary.testAddMember(int,java.lang.String,java.lang.String,java.lang.String,int)[pri:0, instance:TestAutomation.TestNG.TestLibrary@5a63f509]" name="testAddMember" class="TestAutomation.TestNG.TestLibrary"/>
+        <method signature="TestLibrary.testAddToLibrary()[pri:0, instance:TestAutomation.TestNG.TestLibrary@5a63f509]" name="testAddToLibrary" class="TestAutomation.TestNG.TestLibrary"/>
+        <method signature="TestLibrary.testAssignBookToMember()[pri:0, instance:TestAutomation.TestNG.TestLibrary@5a63f509]" name="testAssignBookToMember" class="TestAutomation.TestNG.TestLibrary"/>
+        <method signature="TestLibrary.testFindBookById()[pri:0, instance:TestAutomation.TestNG.TestLibrary@5a63f509]" name="testFindBookById" class="TestAutomation.TestNG.TestLibrary"/>
+        <method signature="TestLibrary.testFindMemberById()[pri:0, instance:TestAutomation.TestNG.TestLibrary@5a63f509]" name="testFindMemberById" class="TestAutomation.TestNG.TestLibrary"/>
+        <method signature="TestLibrary.testIssueBook()[pri:0, instance:TestAutomation.TestNG.TestLibrary@5a63f509]" name="testIssueBook" class="TestAutomation.TestNG.TestLibrary"/>
+        <method signature="TestLibrary.testRemoveBook()[pri:0, instance:TestAutomation.TestNG.TestLibrary@5a63f509]" name="testRemoveBook" class="TestAutomation.TestNG.TestLibrary"/>
+        <method signature="TestLibrary.testSearchByBookName()[pri:0, instance:TestAutomation.TestNG.TestLibrary@5a63f509]" name="testSearchByBookName" class="TestAutomation.TestNG.TestLibrary"/>
+        <method signature="TestLibrary.testdeActivateUser()[pri:0, instance:TestAutomation.TestNG.TestLibrary@5a63f509]" name="testdeActivateUser" class="TestAutomation.TestNG.TestLibrary"/>
+      </group> <!-- Alltests -->
+    </groups>
+    <test started-at="2022-02-10T22:37:54 IST" name="Default test" finished-at="2022-02-10T22:37:54 IST" duration-ms="70">
+      <class name="TestAutomation.TestNG.TestLibrary">
+        <test-method is-config="true" signature="initializeLibrary()[pri:0, instance:TestAutomation.TestNG.TestLibrary@5a63f509]" started-at="2022-02-10T22:37:54 IST" name="initializeLibrary" finished-at="2022-02-10T22:37:54 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeLibrary -->
+        <test-method signature="testActivateUser()[pri:0, instance:TestAutomation.TestNG.TestLibrary@5a63f509]" started-at="2022-02-10T22:37:54 IST" name="testActivateUser" finished-at="2022-02-10T22:37:54 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testActivateUser -->
+        <test-method signature="testAddBook()[pri:0, instance:TestAutomation.TestNG.TestLibrary@5a63f509]" started-at="2022-02-10T22:37:54 IST" name="testAddBook" finished-at="2022-02-10T22:37:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddBook -->
+        <test-method signature="testAddMember()[pri:0, instance:TestAutomation.TestNG.TestLibrary@5a63f509]" started-at="2022-02-10T22:37:54 IST" name="testAddMember" finished-at="2022-02-10T22:37:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMember -->
+        <test-method signature="testAddMember(int,java.lang.String,java.lang.String,java.lang.String,int)[pri:0, instance:TestAutomation.TestNG.TestLibrary@5a63f509]" started-at="2022-02-10T22:37:54 IST" name="testAddMember" data-provider="csvdataprovider2" finished-at="2022-02-10T22:37:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rahul]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Narendhula]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hyd]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMember -->
+        <test-method signature="testAddMember(int,java.lang.String,java.lang.String,java.lang.String,int)[pri:0, instance:TestAutomation.TestNG.TestLibrary@5a63f509]" started-at="2022-02-10T22:37:54 IST" name="testAddMember" data-provider="csvdataprovider2" finished-at="2022-02-10T22:37:54 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rithvik]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sunny]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nirmal]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMember -->
+        <test-method signature="testAddToLibrary()[pri:0, instance:TestAutomation.TestNG.TestLibrary@5a63f509]" started-at="2022-02-10T22:37:54 IST" name="testAddToLibrary" finished-at="2022-02-10T22:37:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToLibrary -->
+        <test-method signature="testAssignBookToMember()[pri:0, instance:TestAutomation.TestNG.TestLibrary@5a63f509]" started-at="2022-02-10T22:37:54 IST" name="testAssignBookToMember" finished-at="2022-02-10T22:37:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAssignBookToMember -->
+        <test-method signature="testFindBookById()[pri:0, instance:TestAutomation.TestNG.TestLibrary@5a63f509]" started-at="2022-02-10T22:37:54 IST" name="testFindBookById" finished-at="2022-02-10T22:37:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindBookById -->
+        <test-method signature="testFindMemberById()[pri:0, instance:TestAutomation.TestNG.TestLibrary@5a63f509]" started-at="2022-02-10T22:37:54 IST" name="testFindMemberById" finished-at="2022-02-10T22:37:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindMemberById -->
+        <test-method signature="testIssueBook()[pri:0, instance:TestAutomation.TestNG.TestLibrary@5a63f509]" started-at="2022-02-10T22:37:54 IST" name="testIssueBook" finished-at="2022-02-10T22:37:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIssueBook -->
+        <test-method signature="testRemoveBook()[pri:0, instance:TestAutomation.TestNG.TestLibrary@5a63f509]" started-at="2022-02-10T22:37:54 IST" name="testRemoveBook" finished-at="2022-02-10T22:37:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveBook -->
+        <test-method signature="testSearchByBookName()[pri:0, instance:TestAutomation.TestNG.TestLibrary@5a63f509]" started-at="2022-02-10T22:37:54 IST" name="testSearchByBookName" finished-at="2022-02-10T22:37:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByBookName -->
+        <test-method signature="testdeActivateUser()[pri:0, instance:TestAutomation.TestNG.TestLibrary@5a63f509]" started-at="2022-02-10T22:37:54 IST" name="testdeActivateUser" finished-at="2022-02-10T22:37:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdeActivateUser -->
+      </class> <!-- TestAutomation.TestNG.TestLibrary -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
