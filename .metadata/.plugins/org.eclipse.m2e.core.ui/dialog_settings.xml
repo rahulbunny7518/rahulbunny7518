@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Rahul_Narendhula\Test Automation\TestNG"/>
 			<item value="C:\Users\Rahul_Narendhula\Test Automation\testautomation"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -26,18 +27,12 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="TestAutomation.testautomation"/>
-			<item value="TestAutomation.testautomation2"/>
 		</list>
 		<list key="groupId">
-			<item value="TestAutomation"/>
 		</list>
 		<list key="artifactId">
-			<item value="testautomation"/>
-			<item value="testautomation2"/>
 		</list>
 		<list key="projectNameTemplate">
-			<item value="estA"/>
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
 			<item value="[artifactId]-[version]"/>
