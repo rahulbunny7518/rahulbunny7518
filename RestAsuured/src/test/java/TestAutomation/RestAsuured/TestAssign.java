@@ -29,9 +29,11 @@ public class TestAssign {
 		.statusCode(200)
 		.extract().jsonPath().getString("data.Token");
 		
+		System.out.println(token);
+		
 	}
 	
-	
+
 	
 	@Test
 	public static void testAuthenticateUsers()

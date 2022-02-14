@@ -25,8 +25,8 @@ public class TestAssignOtherCode {
 	public void testLogin() {
 		RestAssured.baseURI = "http://restapi.adequateshop.com/api";
 		String data="{\r\n"
-				+ " \"email\":\"testautomation13@gmail.com\",\r\n"
-				+ " \"password\":123456789\r\n"
+				+ "    \"email\":\"user11@gmail.com\",\r\n"
+				+ "    \"password\":12345678\r\n"
 				+ "}";
 		Random random = new Random();
 		a = random.nextInt(100);
