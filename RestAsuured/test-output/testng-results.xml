@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-14T09:39:54 IST" name="Default suite" finished-at="2022-02-14T09:39:57 IST" duration-ms="2925">
+    <groups>
+    </groups>
+    <test started-at="2022-02-14T09:39:54 IST" name="Default test" finished-at="2022-02-14T09:39:57 IST" duration-ms="2925">
+      <class name="TestAutomation.RestAsuured.TestAssign">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestAutomation.RestAsuured.TestAssign@20ce78ec]" started-at="2022-02-14T09:39:54 IST" name="setup" finished-at="2022-02-14T09:39:56 IST" duration-ms="2165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAuthenticateUsers()[pri:0, instance:TestAutomation.RestAsuured.TestAssign@20ce78ec]" started-at="2022-02-14T09:39:56 IST" name="testAuthenticateUsers" finished-at="2022-02-14T09:39:56 IST" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAuthenticateUsers -->
+        <test-method signature="testUnAuthenticateUsers()[pri:0, instance:TestAutomation.RestAsuured.TestAssign@20ce78ec]" started-at="2022-02-14T09:39:56 IST" name="testUnAuthenticateUsers" finished-at="2022-02-14T09:39:56 IST" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnAuthenticateUsers -->
+        <test-method signature="testUnAuthenticateUsersWithoutToken()[pri:0, instance:TestAutomation.RestAsuured.TestAssign@20ce78ec]" started-at="2022-02-14T09:39:56 IST" name="testUnAuthenticateUsersWithoutToken" finished-at="2022-02-14T09:39:57 IST" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnAuthenticateUsersWithoutToken -->
+      </class> <!-- TestAutomation.RestAsuured.TestAssign -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
