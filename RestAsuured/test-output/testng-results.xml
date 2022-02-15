@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-15T09:16:50 IST" name="Default suite" finished-at="2022-02-15T09:16:53 IST" duration-ms="2531">
+    <groups>
+    </groups>
+    <test started-at="2022-02-15T09:16:50 IST" name="Default test" finished-at="2022-02-15T09:16:53 IST" duration-ms="2531">
+      <class name="TestAutomation.RestAsuured.TestWithObject">
+        <test-method signature="testGet()[pri:0, instance:TestAutomation.RestAsuured.TestWithObject@3f197a46]" started-at="2022-02-15T09:16:50 IST" name="testGet" finished-at="2022-02-15T09:16:52 IST" duration-ms="1643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet -->
+        <test-method signature="testPost()[pri:0, instance:TestAutomation.RestAsuured.TestWithObject@3f197a46]" started-at="2022-02-15T09:16:52 IST" name="testPost" finished-at="2022-02-15T09:16:53 IST" duration-ms="858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPost -->
+      </class> <!-- TestAutomation.RestAsuured.TestWithObject -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
