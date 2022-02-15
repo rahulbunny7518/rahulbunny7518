@@ -3,15 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestAutomation.RestAsuured.TestAssignOtherCode">
+      <class name="TestAutomation.RestAsuured.Test2">
         <methods>
-          <include name="testApiPOSTResponse"/>
-          <include name="testApiDELETEResponse"/>
-          <include name="testApiPUTResponse"/>
-          <include name="testLogin"/>
-          <include name="testApiGETResponse"/>
+          <include name="testGet"/>
         </methods>
-      </class> <!-- TestAutomation.RestAsuured.TestAssignOtherCode -->
+      </class> <!-- TestAutomation.RestAsuured.Test2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
