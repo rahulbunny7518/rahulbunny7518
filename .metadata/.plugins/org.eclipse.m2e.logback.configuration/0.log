@@ -4787,3 +4787,7 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.gu
 2022-02-15 09:16:46,667 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rahul_Narendhula\Test Automation\RestAsuured\src\main\resources
 2022-02-15 09:16:46,669 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-02-15 09:16:46,669 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rahul_Narendhula\Test Automation\RestAsuured\src\test\resources
+2022-02-15 09:56:48,013 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-15 09:56:48,013 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rahul_Narendhula\Test Automation\RestAsuured\src\main\resources
+2022-02-15 09:56:48,014 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-15 09:56:48,014 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rahul_Narendhula\Test Automation\RestAsuured\src\test\resources
