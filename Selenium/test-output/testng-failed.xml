@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestAutomation.Selenium.TestAssign2">
+      <class name="TestAutomation.Selenium.LeaveTask">
         <methods>
-          <include name="method"/>
+          <include name="applyLeave"/>
         </methods>
-      </class> <!-- TestAutomation.Selenium.TestAssign2 -->
+      </class> <!-- TestAutomation.Selenium.LeaveTask -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
