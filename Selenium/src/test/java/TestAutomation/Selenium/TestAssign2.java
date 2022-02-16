@@ -32,7 +32,7 @@ public class TestAssign2 {
 		
 		Thread.sleep(24000);
 		
-		driver.findElement(By.xpath("/html/body/div[1]/div/div/div[2]/section/div[2]/ui-view/div/div/crud-panel/div/div/list/table/tbody/tr[6]/td[8]/i")).click();
+		driver.findElement(By.xpath("/html/body/div[1]/div/div/div[2]/section/div[2]/ui-view/div/div/crud-panel/div/div/list/table/tbody/tr[6]/td[9]/i")).click();
 		
 		
 		Thread.sleep(3000);

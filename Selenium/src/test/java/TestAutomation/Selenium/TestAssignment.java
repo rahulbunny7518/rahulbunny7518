@@ -32,8 +32,8 @@ public class TestAssignment {
 		
 		Thread.sleep(24000);
 		
-		driver.findElement(By.xpath("/html/body/div[1]/div/div/div[2]/section/div[2]/ui-view/div/div/crud-panel/div/div/list/table/tbody/tr[6]/td[8]/i")).click();
-		
+		driver.findElement(By.xpath("/html/body/div[1]/div/div/div[2]/section/div[2]/ui-view/div/div/crud-panel/div/div/list/table/tbody/tr[6]/td[9]/i")).click();
+		//driver.findElement(By.partialLinkText("ohrm_edit")).click();
 
 		Thread.sleep(5000);
 		driver.findElement(By.xpath("//*[@id=\"modal-holder\"]/div/div/div/div[2]/form/oxd-decorator[3]/div/div[1]/div/div[2]/div/button")).click();
@@ -50,7 +50,7 @@ public class TestAssignment {
 		
 		Thread.sleep(5000);
 		
-		driver.findElement(By.xpath("/html/body/div[1]/div/div/div[2]/section/div[2]/ui-view/div/div/crud-panel/div/div/list/table/tbody/tr[6]/td[8]/i")).click();
+		driver.findElement(By.xpath("/html/body/div[1]/div/div/div[2]/section/div[2]/ui-view/div/div/crud-panel/div/div/list/table/tbody/tr[6]/td[9]/i")).click();
 		Thread.sleep(5000);
 		
 		driver.findElement(By.xpath("/html/body/div[3]/div/div/div/div[2]/form/oxd-decorator[3]/div/div[1]/div/div[2]/div/button/i[2]")).click();
