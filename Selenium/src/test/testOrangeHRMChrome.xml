@@ -5,7 +5,10 @@
 	<test name="TestWebdriver">
 		<parameter name="BrowserName" value="Chrome" />
 		<classes>
-			<class name="TestAutomation.Selenium.Testdriver" />
+
+			<class name="TestAutomation.Selenium.Testdriver"/>
+		
+
 		</classes>
 	</test>
 </suite>

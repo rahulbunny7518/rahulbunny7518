@@ -6,7 +6,15 @@
 	<test name="TestWebdriver">
 		<parameter name="BrowserName" value="Firefox" />
 		<classes>
-			<class name="TestAutomation.Selenium.Testdriver" />
+			
+			
+			
+			
+			<class name="TestAutomation.Selenium.OrangeHRMPOM.RadiobuttonTask"/>
+
+
+
+		
 		</classes>
 	</test>
 </suite>

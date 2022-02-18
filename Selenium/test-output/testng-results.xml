@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-16T22:52:02 IST" name="Webdriver" finished-at="2022-02-16T22:52:08 IST" duration-ms="6530">
+  <suite started-at="2022-02-18T09:03:47 IST" name="Webdriver" finished-at="2022-02-18T09:04:12 IST" duration-ms="24466">
     <groups>
     </groups>
-    <test started-at="2022-02-16T22:52:02 IST" name="TestWebdriver" finished-at="2022-02-16T22:52:08 IST" duration-ms="6530">
-      <class name="TestAutomation.Selenium.Testdriver">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:TestAutomation.Selenium.Testdriver@67d48005]" started-at="2022-02-16T22:52:02 IST" name="setup" finished-at="2022-02-16T22:52:05 IST" duration-ms="2839" status="PASS">
+    <test started-at="2022-02-18T09:03:47 IST" name="TestWebdriver" finished-at="2022-02-18T09:04:12 IST" duration-ms="24466">
+      <class name="TestAutomation.Selenium.OrangeHRMPOM.RadiobuttonTask">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:TestAutomation.Selenium.OrangeHRMPOM.RadiobuttonTask@67d48005]" started-at="2022-02-18T09:03:47 IST" name="setup" finished-at="2022-02-18T09:03:50 IST" duration-ms="2852" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testdriver()[pri:0, instance:TestAutomation.Selenium.Testdriver@67d48005]" started-at="2022-02-16T22:52:05 IST" name="testdriver" finished-at="2022-02-16T22:52:08 IST" duration-ms="3670" status="PASS">
+        <test-method signature="testRadioandCheckbox()[pri:0, instance:TestAutomation.Selenium.OrangeHRMPOM.RadiobuttonTask@67d48005]" started-at="2022-02-18T09:03:50 IST" name="testRadioandCheckbox" finished-at="2022-02-18T09:04:12 IST" duration-ms="21592" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testdriver -->
-      </class> <!-- TestAutomation.Selenium.Testdriver -->
+        </test-method> <!-- testRadioandCheckbox -->
+      </class> <!-- TestAutomation.Selenium.OrangeHRMPOM.RadiobuttonTask -->
     </test> <!-- TestWebdriver -->
   </suite> <!-- Webdriver -->
 </testng-results>

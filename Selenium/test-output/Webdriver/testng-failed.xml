@@ -4,12 +4,12 @@
   <test thread-count="5" name="TestWebdriver(failed)">
     <parameter name="BrowserName" value="Firefox"/>
     <classes>
-      <class name="TestAutomation.Selenium.Testdriver">
+      <class name="TestAutomation.Selenium.OrangeHRMPOM.LeaveAssignment">
         <methods>
-          <include name="testdriver"/>
           <include name="setup"/>
+          <include name="testLeaveTask"/>
         </methods>
-      </class> <!-- TestAutomation.Selenium.Testdriver -->
+      </class> <!-- TestAutomation.Selenium.OrangeHRMPOM.LeaveAssignment -->
     </classes>
   </test> <!-- TestWebdriver(failed) -->
 </suite> <!-- Failed suite [Webdriver] -->

@@ -30,6 +30,7 @@ public class TestAssign2 {
 		driver.findElement(By.xpath("//input[@class='password-input']")).sendKeys("U@qBLVtm09");
 		driver.findElement(By.xpath("//img[@class=\"icon login-icon\"]")).click();
 		
+		
 		driver.findElement(By.partialLinkText("Admin")).click();
 		driver.findElement(By.partialLinkText("User Management")).click();
 		driver.findElement(By.partialLinkText("Users")).click();
