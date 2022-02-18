@@ -37,17 +37,6 @@ public class InvalidCredentialsTask {
 		
 		
 		
-		driver.get("https://prasoonr-trials73.orangehrmlive.com/client/#/pim/employees/13/personal_details");
-		driver.findElement(By.xpath("//input[@type='text']")).sendKeys("Admin");
-		driver.findElement(By.xpath("//input[@class='password-input']")).sendKeys("U@qBLVtm09");
-		driver.findElement(By.xpath("//img[@class=\"icon login-icon\"]")).click();
-		
-		Thread.sleep(20000);
-		
-		driver.findElement(By.xpath("//label[@for='30_Yes']")).click();
-		driver.findElement(By.xpath("//label[@for='26Dairy-Free']")).click();
-		driver.findElement(By.xpath("//label[@for='26Gluten-Free']")).click();
-		
 		
 	}
 		

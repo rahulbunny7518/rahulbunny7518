@@ -32,6 +32,7 @@ public class RadiobuttonTask {
 					.clickRadioButton()
 					.clickCheckBox1()
 					.clickCheckBox2();
+		
 	}
 
 }
