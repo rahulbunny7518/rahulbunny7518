@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestAutomation.Selenium.OrangeHRMPOM.RadiobuttonTask">
+      <class name="TestAutomation.Selenium.OrangeHRMPOM.LeaveLoginPageTest">
         <methods>
-          <include name="testRadioandCheckbox"/>
+          <include name="testLeaveApply"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- TestAutomation.Selenium.OrangeHRMPOM.RadiobuttonTask -->
+      </class> <!-- TestAutomation.Selenium.OrangeHRMPOM.LeaveLoginPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

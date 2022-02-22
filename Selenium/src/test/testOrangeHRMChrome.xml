@@ -6,7 +6,8 @@
 		<parameter name="BrowserName" value="Chrome" />
 		<classes>
 
-			<class name="TestAutomation.Selenium.Testdriver"/>
+			   <class name="TestAutomation.Selenium.OrangeHRMPOM.LeaveLoginPageTest"/>
+
 		
 
 		</classes>

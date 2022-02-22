@@ -2,14 +2,14 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Webdriver]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="TestWebdriver(failed)">
-    <parameter name="BrowserName" value="Firefox"/>
+    <parameter name="BrowserName" value="Chrome"/>
     <classes>
-      <class name="TestAutomation.Selenium.OrangeHRMPOM.LeaveAssignment">
+      <class name="TestAutomation.Selenium.OrangeHRMPOM.LeaveLoginPageTest">
         <methods>
-          <include name="setup"/>
           <include name="testLeaveTask"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- TestAutomation.Selenium.OrangeHRMPOM.LeaveAssignment -->
+      </class> <!-- TestAutomation.Selenium.OrangeHRMPOM.LeaveLoginPageTest -->
     </classes>
   </test> <!-- TestWebdriver(failed) -->
 </suite> <!-- Failed suite [Webdriver] -->
