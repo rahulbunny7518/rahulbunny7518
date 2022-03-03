@@ -1,1 +1,3 @@
 Test Automation pushing to github
+
+Checking jenkins is automatically building or not
