@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestAutomation.Selenium.OrangeHRMPOM.LeaveLoginPageTest">
+      <class name="listeners.TestClassListenerDemo">
         <methods>
-          <include name="testLeaveApply"/>
+          <include name="testloginFunctionality"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- TestAutomation.Selenium.OrangeHRMPOM.LeaveLoginPageTest -->
+      </class> <!-- listeners.TestClassListenerDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

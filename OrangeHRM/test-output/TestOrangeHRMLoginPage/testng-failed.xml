@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestOrangeHRMLoginPage]" guice-stage="DEVELOPMENT">
+  <parameter name="BrowserName" value="Chrome"/>
+  <parameter name="OrangeHRMPassword" value="U@qBLVtm09"/>
+  <parameter name="OrangeHRMUsername" value="Admin"/>
+  <parameter name="OrangeHRMBaseURL" value="https://prasoonr-trials73.orangehrmlive.com/"/>
+  <test thread-count="5" name="GridTest(failed)">
+    <classes>
+      <class name="testcases.TestLoginPage">
+        <methods>
+          <include name="setup"/>
+          <include name="passMethod"/>
+        </methods>
+      </class> <!-- testcases.TestLoginPage -->
+    </classes>
+  </test> <!-- GridTest(failed) -->
+</suite> <!-- Failed suite [TestOrangeHRMLoginPage] -->

@@ -1,32 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-22T21:44:11 IST" name="Default suite" finished-at="2022-02-22T21:45:48 IST" duration-ms="97304">
+  <suite started-at="2022-02-23T22:55:55 IST" name="Default suite" finished-at="2022-02-23T22:57:03 IST" duration-ms="67693">
     <groups>
     </groups>
-    <test started-at="2022-02-22T21:44:11 IST" name="Default test" finished-at="2022-02-22T21:45:48 IST" duration-ms="97304">
-      <class name="TestAutomation.Selenium.OrangeHRMPOM.LeaveLoginPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:TestAutomation.Selenium.OrangeHRMPOM.LeaveLoginPageTest@9f116cc]" started-at="2022-02-22T21:44:11 IST" name="setup" finished-at="2022-02-22T21:44:18 IST" duration-ms="7203" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2022-02-23T22:55:55 IST" name="Default test" finished-at="2022-02-23T22:57:03 IST" duration-ms="67693">
+      <class name="TestAutomation.Selenium.TestAssign2">
+        <test-method signature="method()[pri:0, instance:TestAutomation.Selenium.TestAssign2@61862a7f]" started-at="2022-02-23T22:55:55 IST" name="method" finished-at="2022-02-23T22:57:03 IST" duration-ms="67662" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testLeaveApply()[pri:1, instance:TestAutomation.Selenium.OrangeHRMPOM.LeaveLoginPageTest@9f116cc]" started-at="2022-02-22T21:44:18 IST" name="testLeaveApply" finished-at="2022-02-22T21:45:06 IST" duration-ms="47918" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLeaveApply -->
-        <test-method signature="testLeaveList()[pri:2, instance:TestAutomation.Selenium.OrangeHRMPOM.LeaveLoginPageTest@9f116cc]" started-at="2022-02-22T21:45:06 IST" name="testLeaveList" finished-at="2022-02-22T21:45:48 IST" duration-ms="42147" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLeaveList -->
-      </class> <!-- TestAutomation.Selenium.OrangeHRMPOM.LeaveLoginPageTest -->
+        </test-method> <!-- method -->
+      </class> <!-- TestAutomation.Selenium.TestAssign2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

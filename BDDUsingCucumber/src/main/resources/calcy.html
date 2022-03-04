@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-wth, initial-scale=1.0">
+<title>Calculator</title>
+<style>
+.center {
+background-color:yellow;
+margin: auto;
+width:fit-content;
+border:10px solid black;
+
+}
+.center1{
+background-color:black;
+}
+.box {
+background-color: rosybrown;
+margin: auto;
+width: 275px;
+height: 75px;
+padding: 10px;
+text-align: center;
+}
+
+
+
+#p {
+position: absolute;
+font-size: 25px;
+
+
+
+
+
+}
+
+
+
+td {
+background-color: blue;
+}
+
+
+
+td:hover {
+background-color: orange;
+
+
+
+}
+
+
+
+.button:hover {
+background-color: orange;
+
+
+
+}
+
+
+
+.button {
+background-color: blue;
+/* Green */
+border: none;
+color:white;
+padding: 30px 30px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 0px;
+cursor: pointer;
+}
+
+
+
+/* .button2 {
+background-color: #008CBA;
+} */
+
+
+
+/* Blue */
+/* .button3 {
+background-color: #f44336;
+} */
+
+
+
+/* Red */
+/* .button4 {
+background-color: #e7e7e7;
+color: black;
+} */
+
+
+
+/* Gray */
+/* .button5 {
+background-color: #555555;
+} */
+
+
+
+/* Black */
+</style>
+</head>
+
+
+
+<body>
+<div class="center center1">
+<table class="center ">
+<tr>
+<div class="box">
+<p id="p">
+Ans
+</p>
+</div>
+</tr>
+<tr>
+<td><button class="button button2" id="1" onclick=strfun(this.id)>1</button></td>
+<td><button class="button button3" id="2" onclick=strfun(this.id)>2</button></td>
+<td><button class="button button4" id="3" onclick=strfun(this.id)>3</button></td>
+<td><button class="button button5" id="+" onclick=strfun(this.id)>+</button></td>
+</tr>
+
+
+
+<tr>
+<td><button class="button button2" id="4" onclick=strfun(this.id)>4</button></td>
+<td><button class="button button3" id="5" onclick=strfun(this.id)>5</button></td>
+<td><button class="button button4" id="6" onclick=strfun(this.id)>6</button></td>
+<td><button class="button button5" id="-" onclick=strfun(this.id)>-</button></td>
+</tr>
+
+
+
+<tr>
+<td><button class="button button2" id="7" onclick=strfun(this.id)>7</button></td>
+<td><button class="button button3" id="8" onclick=strfun(this.id)>8</button></td>
+<td><button class="button button4" id="9" onclick=strfun(this.id)>9</button></td>
+<td><button class="button button5" id="*" onclick=strfun(this.id)>*</button></td>
+</tr>
+
+
+
+<tr>
+<td><button class="button button2" id="0" onclick=strfun(this.id)>0</button></td>
+<td><button class="button button3" id="%" onclick=strfun(this.id)>%</button></td>
+<td><button class="button button4" id="=" onclick=exp()>=</button></td>
+<td><button class="button button5" id="/" onclick=strfun(this.id)>/</button></td>
+</tr>
+
+
+
+</table>
+</div>
+
+
+
+<script>
+var result
+var str = ""
+function strfun(s) {
+var str1 = s
+str = str + str1
+console.log(str)
+document.getElementById("p").innerHTML = str
+}
+function exp() {
+result = eval(str)
+str = ""
+document.getElementById("p").innerHTML = result
+}
+
+
+
+
+
+</script>
+
+
+
+</body>
+
+
+
+</html>

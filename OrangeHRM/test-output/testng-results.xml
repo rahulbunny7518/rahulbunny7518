@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-24T10:46:37 IST" name="TestOrangeHRM" finished-at="2022-02-24T10:47:38 IST" duration-ms="60891">
+    <groups>
+    </groups>
+    <test started-at="2022-02-24T10:46:37 IST" name="LoginPage" finished-at="2022-02-24T10:47:38 IST" duration-ms="60891">
+      <class name="homeTasks.TestAdminTask">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:homeTasks.TestAdminTask@52bf72b5]" started-at="2022-02-24T10:46:37 IST" name="setup" finished-at="2022-02-24T10:46:43 IST" duration-ms="5875" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7942a854]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAdminFunctionalityMethod()[pri:0, instance:homeTasks.TestAdminTask@52bf72b5]" started-at="2022-02-24T10:46:43 IST" name="testAdminFunctionalityMethod" finished-at="2022-02-24T10:47:38 IST" duration-ms="54986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdminFunctionalityMethod -->
+      </class> <!-- homeTasks.TestAdminTask -->
+    </test> <!-- LoginPage -->
+  </suite> <!-- TestOrangeHRM -->
+</testng-results>
