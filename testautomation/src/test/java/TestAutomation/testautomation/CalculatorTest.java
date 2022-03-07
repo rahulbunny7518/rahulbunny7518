@@ -38,6 +38,7 @@ public class CalculatorTest extends TestCase{
 	@Test
 	public void testDivWithZeroValue() {
 		Integer res=ob.div(10,0);
+		//System.out.println(res);
 		assertNull(res);
 	}
 

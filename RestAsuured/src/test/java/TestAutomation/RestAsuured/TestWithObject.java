@@ -31,8 +31,10 @@ public class TestWithObject {
 
 	@Test
 	public void testGet() {
+		
 		UserDetails object = given()
-				.log().all()
+				.log()
+				.all()
 				.when()
 				.get("https://jsonplaceholder.typicode.com/albums/1")
 				.as(UserDetails.class);

@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="listeners.TestClassListenerDemo">
+      <class name="TestAutomation.Selenium.InvalidCredentialsTask">
         <methods>
-          <include name="testloginFunctionality"/>
           <include name="setup"/>
+          <include name="testdriver"/>
         </methods>
-      </class> <!-- listeners.TestClassListenerDemo -->
+      </class> <!-- TestAutomation.Selenium.InvalidCredentialsTask -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

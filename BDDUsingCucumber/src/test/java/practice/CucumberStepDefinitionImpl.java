@@ -37,10 +37,20 @@ public class CucumberStepDefinitionImpl {
 		loginPageAdmin = new LoginPageAdmin(driver);
 
 	}
+	
+	
+	@Given("Open Browser")
+
+	public void setup() throws MalformedURLException {
+
+		driver.get(orangeHRMURL);
+		loginPage = new LoginPage(driver);
+	}
+
 
 	
-/*	
-	@Given("open BrowserLogin page And Username is {string} and password is {string}")
+
+	@Given("Username is {string} and password is {string}")
 	public void open_browser_login_page_and_username_is_and_password_is(String userName, String password) {
 		driver.get(orangeHRMURL);
 		loginPage = new LoginPage(driver);
@@ -59,9 +69,11 @@ public class CucumberStepDefinitionImpl {
 		assertTrue(currentUrl.endsWith("dashboard"));
 	}
 
-	@Given("Admin Role is {string}")
-	public void admin_role_is(String adminRole) {
+	@Given("Admin Role is {string} And Username is {string}")
+	public void admin_role_is(String adminRole,String username) {
 	  assertEquals(adminRole, "Global Admin");
+	    assertEquals(username, "amanda");
+
 	}
 
 	@When("user click on Admin button")
@@ -80,15 +92,13 @@ public class CucumberStepDefinitionImpl {
 	}
 
 	@Then("User should navigate to Users page")
-	public void user_should_navigate_to_users_page() {
+	public void user_should_navigate_to_users_page() throws InterruptedException {
+		Thread.sleep(10000);
 	   String currentUrl=driver.getCurrentUrl();
 	   assertTrue(currentUrl.endsWith("systemUsers"));
 	}
 
-	@Given("Username is {string}")
-	public void username_is(String username) {
-	    assertEquals(username, "amanda");
-	}
+	
 
 	@When("user click amanda Edit button")
 	public void user_click_amand_edit_button() throws InterruptedException {
@@ -114,6 +124,6 @@ public class CucumberStepDefinitionImpl {
 	public void user_should_able_to_in_user_roles_of() throws InterruptedException {
 	    loginPageAdmin.verifyingUserRoles();
 	}
-*/
+
 
 }

@@ -225,16 +225,11 @@ public class TestCatalogue {
 	@DataProvider(name = "BookNamesV2")
 	public static Object[][] bookNamesVer2()
 	{
-		return new Object[][] {{
-			new Book(7,"wings of Fire","APJ Kalam")
-		}
+		return new Object[][] {
+			{new Book(7,"wings of Fire","APJ Kalam")}
 		};
 	}
 	
-	
-	
-	
-	
-	
+
 	
 }

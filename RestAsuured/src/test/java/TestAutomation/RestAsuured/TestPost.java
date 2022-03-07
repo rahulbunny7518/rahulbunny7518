@@ -17,7 +17,7 @@ import io.restassured.RestAssured;
 public class TestPost {
 	
 	@BeforeClass
-	public static void setup() {
+	public void setup() {
 		RestAssured.baseURI="https://jsonplaceholder.typicode.com";
 	}
 	

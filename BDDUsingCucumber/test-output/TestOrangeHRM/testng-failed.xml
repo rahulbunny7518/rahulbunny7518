@@ -4,15 +4,15 @@
   <parameter name="BrowserName" value="Chrome"/>
   <parameter name="OrangeHRMTestExecutionPlatform" value="LocalWebDriver"/>
   <parameter name="OrangeHRMBaseURL" value="https://prasoonr-trials73.orangehrmlive.com/"/>
-  <test thread-count="5" name="Calculator(failed)">
+  <test thread-count="5" name="LoginPage(failed)">
     <classes>
-      <class name="calculator.TestCalculator">
+      <class name="practice.TestRunner">
         <methods>
           <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="2"/>
           <include name="tearDownClass"/>
-          <include name="runScenario" invocation-numbers="36"/>
         </methods>
-      </class> <!-- calculator.TestCalculator -->
+      </class> <!-- practice.TestRunner -->
     </classes>
-  </test> <!-- Calculator(failed) -->
+  </test> <!-- LoginPage(failed) -->
 </suite> <!-- Failed suite [TestOrangeHRM] -->

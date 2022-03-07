@@ -13,6 +13,19 @@ public class Catalogue {
 		
 	}
 	
+	
+
+	public ArrayList<Book> getBooks() {
+		return books;
+	}
+
+	public void setBooks(ArrayList<Book> books) {
+		this.books = books;
+	}
+	
+	
+	
+	
 	public void addBook(Book newBook)
 	{
 		this.books.add(newBook);
@@ -22,7 +35,7 @@ public class Catalogue {
 	public void removeBook(int bookID)
 	{
 		for (Iterator iterator = books.iterator(); iterator.hasNext();) {
-			Book book = (Book) iterator.next();
+			Book book = (Book) iterator.next(); //taking input or reading book
 			if(book.getId() == bookID)
 			{
 				iterator.remove();
@@ -65,19 +78,6 @@ public class Catalogue {
 		return this.books.size();
 	}
 
-	
-	
-	
-	
-	public ArrayList<Book> getBooks() {
-		return books;
-	}
-
-	public void setBooks(ArrayList<Book> books) {
-		this.books = books;
-	}
-	
-	
 	
 	public Book findBookById(int bookID) {
 

@@ -28,7 +28,7 @@ public class StepDefinitionCalculator {
 		driver.navigate().to(calculatorURL);
 		calculatorPage = new CalculatorPage(driver);
 	}
-
+/*
 	@Given("Browser is open")
 	public void browser_is_loaded() throws MalformedURLException {
 
@@ -144,5 +144,6 @@ public class StepDefinitionCalculator {
 	public void final_book_list_is(io.cucumber.datatable.DataTable dataTable) {
 	    
 	}
+	*/
 
 }

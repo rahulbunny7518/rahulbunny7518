@@ -13,10 +13,10 @@
 	<test name="LoginPage">
 
 		<classes>
-			 <class name="TestAutomation.BDDUsingCucumber.CucumberDefinitionImpl"/>
+			 <class name="practice.CucumberStepDefinitionImpl"/>
 
 
-			   <class name="TestAutomation.BDDUsingCucumber.TestLoginPage"/>
+			   <class name="practice.TestRunner"/>
 
 		
 

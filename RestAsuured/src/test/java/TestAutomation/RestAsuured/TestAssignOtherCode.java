@@ -38,7 +38,7 @@ public class TestAssignOtherCode {
 				.post("/authaccount/login")
 				.then()
 				.statusCode(200)
-				.extract().jsonPath().getString("data.Token");
+				.extract().jsonPath().getString("data.Token"); //doubt
 		System.out.println("Token is: "+token);
 	}
 	@Test
