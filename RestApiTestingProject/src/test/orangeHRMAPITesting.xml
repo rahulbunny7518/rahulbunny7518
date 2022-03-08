@@ -7,6 +7,7 @@
 		<parameter name="Token" value="f41dd1b5833289728c613f43a97cc5a9a05038e9" />
 		<parameter name="Cookie" value="orangehrmSecurityAuthentication_LoginLocationTracker=e3afed0047b08059d0fada10f400c1e5; orangehrm=ea239e3ae5051698eb0a06cd8b27c2b8" />
 
+
 		<classes>
 				
 			   <class name="TestAutomation.RestApiTestingProject.TestOrangeHRM"/>

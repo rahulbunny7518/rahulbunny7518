@@ -24,7 +24,6 @@ public class PunchInOut {
 	}
 
 
-
 	public int getEmpNumber() {
 		return empNumber;
 	}
