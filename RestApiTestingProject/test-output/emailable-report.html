@@ -8,16 +8,38 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">API TESTING</th></tr>
-<tr><td><a href="#t0">PunchInOut</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">12,442</td><td></td><td></td></tr>
+<tr><th colspan="8">TestOrangeHRM</th></tr>
+<tr><td><a href="#t0">PunchInOut</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">48,055</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">API TESTING</th></tr></tbody><tbody id="t0"><tr><th colspan="4">PunchInOut &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">TestAutomation.RestApiTestingProject.TestOrangeHRM</td><td><a href="#m0">testAttendanceSheet</a></td><td rowspan="1">1646756473261</td><td rowspan="1">2859</td></tr><tr class="passedeven"><td><a href="#m1">testAttendanceSheetWithIdResponse</a></td><td rowspan="1">1646756476124</td><td rowspan="1">2134</td></tr><tr class="passedeven"><td><a href="#m2">testDelete</a></td><td rowspan="1">1646756483683</td><td rowspan="1">1606</td></tr><tr class="passedeven"><td><a href="#m3">testPunchIn</a></td><td rowspan="1">1646756479843</td><td rowspan="1">1942</td></tr><tr class="passedeven"><td><a href="#m4">testPunchInOutConfig</a></td><td rowspan="1">1646756478260</td><td rowspan="1">1581</td></tr><tr class="passedeven"><td><a href="#m5">testPunchOut</a></td><td rowspan="1">1646756481786</td><td rowspan="1">1895</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">TestOrangeHRM</th></tr></tbody><tbody id="t0"><tr><th colspan="4">PunchInOut &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">uiAutomation.TestOrangeHrmUsingSelenium</td><td><a href="#m0">testOverlappingMessage</a></td><td rowspan="1">1646847084443</td><td rowspan="1">1141</td></tr><tr><th colspan="4">PunchInOut &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">uiAutomation.TestOrangeHrmUsingSelenium</td><td><a href="#m1">testAttendanceSheetPage</a></td><td rowspan="1">1646847058561</td><td rowspan="1">5175</td></tr><tr class="passedeven"><td><a href="#m2">testDashboardPage</a></td><td rowspan="1">1646847053289</td><td rowspan="1">5270</td></tr><tr class="passedeven"><td><a href="#m3">testLoginPage</a></td><td rowspan="1">1646847044773</td><td rowspan="1">8509</td></tr><tr class="passedeven"><td><a href="#m4">testPunchInAndOutPage</a></td><td rowspan="1">1646847063738</td><td rowspan="1">20703</td></tr></tbody>
 </table>
-<h2>PunchInOut</h2><h3 id="m0">TestAutomation.RestApiTestingProject.TestOrangeHRM#testAttendanceSheet</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">TestAutomation.RestApiTestingProject.TestOrangeHRM#testAttendanceSheetWithIdResponse</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">TestAutomation.RestApiTestingProject.TestOrangeHRM#testDelete</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">TestAutomation.RestApiTestingProject.TestOrangeHRM#testPunchIn</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">TestAutomation.RestApiTestingProject.TestOrangeHRM#testPunchInOutConfig</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">TestAutomation.RestApiTestingProject.TestOrangeHRM#testPunchOut</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>PunchInOut</h2><h3 id="m0">uiAutomation.TestOrangeHrmUsingSelenium#testOverlappingMessage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input materializecss-input=&quot;&quot; id=&quot;time&quot; sf-changed=&quot;form&quot; type=&quot;text&quot; placeholder=&quot;HH:MM&quot; ng-disabled=&quot;form.readonly&quot; schema-validate=&quot;form&quot; ng-model=&quot;model[&apos;time&apos;]&quot; ng-model-options=&quot;form.ngModelOptions&quot; ohrm-make-element-non-pristine=&quot;form.removePristine&quot; ng-attr-autocomplete=&quot;{{form.autocompleteOff}}&quot; class=&quot;ng-touched ng-dirty ng-valid-punch-out-time ng-valid-overlapping-records ng-not-empty ng-valid-parse ng-valid-required-for-dirty ng-valid-time-format ng-valid-schema-form ng-pending&quot; style=&quot;&quot;&gt; is not clickable at point (726, 205). Other element would receive the click: &lt;div id=&quot;preloader&quot; class=&quot;center-align loading&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=99.0.4844.51)
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;EPINHYDW0D30&apos;, ip: &apos;192.168.8.111&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [01a6fcf5046ce2c224617317037f1223, clickElement {id=7e4c64ea-4348-49f5-9e39-f5392224ea35}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606..., userDataDir: C:\Users\RAHUL_~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50454}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50454/devtoo..., se:cdpVersion: 99.0.4844.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (01a6fcf5046ce2c224617317037f1223)] -&gt; xpath: //input[@id=&apos;time&apos;]]
+Session ID: 01a6fcf5046ce2c224617317037f1223
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+	at uiAutromation.pages.PunchInAndOut.overlappingMessageVerification(PunchInAndOut.java:80)
+	at uiAutomation.TestOrangeHrmUsingSelenium.testOverlappingMessage(TestOrangeHrmUsingSelenium.java:98)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">uiAutomation.TestOrangeHrmUsingSelenium#testAttendanceSheetPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">uiAutomation.TestOrangeHrmUsingSelenium#testDashboardPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">uiAutomation.TestOrangeHrmUsingSelenium#testLoginPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">uiAutomation.TestOrangeHrmUsingSelenium#testPunchInAndOutPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

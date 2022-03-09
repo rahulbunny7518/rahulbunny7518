@@ -4,13 +4,13 @@
 
 <suite name="API TESTING">
 	<test name="PunchInOut">
-		<parameter name="Token" value="f41dd1b5833289728c613f43a97cc5a9a05038e9" />
-		<parameter name="Cookie" value="orangehrmSecurityAuthentication_LoginLocationTracker=e3afed0047b08059d0fada10f400c1e5; orangehrm=ea239e3ae5051698eb0a06cd8b27c2b8" />
+		<parameter name="Token" value="1f9e69478eb849a58dc291c6af8d5eacb470ae77" />
+		<parameter name="Cookie" value="orangehrmSecurityAuthentication_LoginLocationTracker=e3afed0047b08059d0fada10f400c1e5; orangehrm=a0b70b22fb37c5a48d280e4ce83b160b" />
 
 
 		<classes>
 				
-			   <class name="TestAutomation.RestApiTestingProject.TestOrangeHRM"/>
+			   <class name="TestAutomation.RestApiTestingProject.TestOrangeHRMAPiTests"/>
 
 		</classes>
 	</test>

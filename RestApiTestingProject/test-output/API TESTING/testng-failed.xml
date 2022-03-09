@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [API TESTING]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="PunchInOut(failed)">
+    <parameter name="Cookie" value="orangehrmSecurityAuthentication_LoginLocationTracker=e3afed0047b08059d0fada10f400c1e5; orangehrm=9834755a552ae22d48faa1285b13b564"/>
+    <parameter name="Token" value="0ef0683e04837f0df3096eda31014269bac0c479"/>
+    <classes>
+      <class name="TestAutomation.RestApiTestingProject.TestOrangeHRMAPiTests">
+        <methods>
+          <include name="testTotalhoursBefore"/>
+          <include name="testInvalidPunchIn"/>
+          <include name="testOverlappingPunchIn"/>
+          <include name="testDelete"/>
+          <include name="testValidPunchIn"/>
+          <include name="testValidPunchOut"/>
+          <include name="testAttendanceSheetWithId"/>
+          <include name="testTotalhoursAfterDelete"/>
+          <include name="testInvalidPunchOut"/>
+          <include name="setup"/>
+          <include name="testAttendanceSheet"/>
+          <include name="testTotalhoursAfter"/>
+        </methods>
+      </class> <!-- TestAutomation.RestApiTestingProject.TestOrangeHRMAPiTests -->
+    </classes>
+  </test> <!-- PunchInOut(failed) -->
+</suite> <!-- Failed suite [API TESTING] -->

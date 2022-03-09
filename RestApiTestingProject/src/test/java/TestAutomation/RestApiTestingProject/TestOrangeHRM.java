@@ -62,7 +62,6 @@ public class TestOrangeHRM {
 				.get("api/attendanceSheet?id=653")
 				.then()
 				.statusCode(200)
-				//.body("data[0].total", equalTo(14460))
 				.extract().response();
 		String response=res.asString();
 		System.out.println(response);
@@ -167,6 +166,11 @@ public class TestOrangeHRM {
 	
 	@Test(priority=6)
 	public void testDelete() {
+		/*{
+			  "ids": [
+			    "29943"
+			  ]
+			}*/
 		
 		String data="{\"ids\":["+punchinId+"]}";
 		String res=given()
