@@ -41,21 +41,6 @@ public class TestOrangeHrmUsingSelenium {
 	}
 	
 	
-	//@Test
-	public void testPunchInout() throws InterruptedException
-	{
-		PomOrangeHrm punchinout=new PomOrangeHrm(driver);
-		punchinout.enterUsername(orangeHRMUsername)
-					.enterPassword(orangeHRMPassword)
-					.clickLoginButton()
-					.clickAttendanceButton()
-					.clickAttendanceSheetAndVerifyUrl()
-					.clickPunchInOutAndVerifyUrl()
-					.providingPunchIn("Wed, 09 Mar 2022", "10:00")
-					.providingPunchOut("Wed, 09 Mar 2022", "16:00");
-		
-	}
-	
 	@Test(priority=1)
 	public void testLoginPage()
 	{

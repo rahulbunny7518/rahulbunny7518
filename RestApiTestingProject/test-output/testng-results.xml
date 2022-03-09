@@ -1,118 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-09T23:00:37 IST" name="TestOrangeHRM" finished-at="2022-03-09T23:01:25 IST" duration-ms="48055">
+  <suite started-at="2022-03-09T23:09:16 IST" name="TestOrangeHRM" finished-at="2022-03-09T23:10:02 IST" duration-ms="45641">
     <groups>
     </groups>
-    <test started-at="2022-03-09T23:00:37 IST" name="PunchInOut" finished-at="2022-03-09T23:01:25 IST" duration-ms="48055">
+    <test started-at="2022-03-09T23:09:16 IST" name="PunchInOut" finished-at="2022-03-09T23:10:02 IST" duration-ms="45641">
       <class name="uiAutomation.TestOrangeHrmUsingSelenium">
-        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:uiAutomation.TestOrangeHrmUsingSelenium@31304f14]" started-at="2022-03-09T23:00:37 IST" name="setup" finished-at="2022-03-09T23:00:44 IST" duration-ms="7203" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:uiAutomation.TestOrangeHrmUsingSelenium@6302bbb1]" started-at="2022-03-09T23:09:16 IST" name="setup" finished-at="2022-03-09T23:09:23 IST" duration-ms="6883" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6c806c8b]]>
+                <![CDATA[org.testng.TestRunner@28e19366]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testLoginPage()[pri:1, instance:uiAutomation.TestOrangeHrmUsingSelenium@31304f14]" started-at="2022-03-09T23:00:44 IST" name="testLoginPage" finished-at="2022-03-09T23:00:53 IST" duration-ms="8509" status="PASS">
+        <test-method signature="testLoginPage()[pri:1, instance:uiAutomation.TestOrangeHrmUsingSelenium@6302bbb1]" started-at="2022-03-09T23:09:23 IST" name="testLoginPage" finished-at="2022-03-09T23:09:31 IST" duration-ms="7694" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginPage -->
-        <test-method signature="testDashboardPage()[pri:2, instance:uiAutomation.TestOrangeHrmUsingSelenium@31304f14]" started-at="2022-03-09T23:00:53 IST" name="testDashboardPage" finished-at="2022-03-09T23:00:58 IST" duration-ms="5270" status="PASS">
+        <test-method signature="testDashboardPage()[pri:2, instance:uiAutomation.TestOrangeHrmUsingSelenium@6302bbb1]" started-at="2022-03-09T23:09:31 IST" name="testDashboardPage" finished-at="2022-03-09T23:09:36 IST" duration-ms="5341" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDashboardPage -->
-        <test-method signature="testAttendanceSheetPage()[pri:3, instance:uiAutomation.TestOrangeHrmUsingSelenium@31304f14]" started-at="2022-03-09T23:00:58 IST" name="testAttendanceSheetPage" finished-at="2022-03-09T23:01:03 IST" duration-ms="5175" status="PASS">
+        <test-method signature="testAttendanceSheetPage()[pri:3, instance:uiAutomation.TestOrangeHrmUsingSelenium@6302bbb1]" started-at="2022-03-09T23:09:36 IST" name="testAttendanceSheetPage" finished-at="2022-03-09T23:09:41 IST" duration-ms="5152" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAttendanceSheetPage -->
-        <test-method signature="testPunchInAndOutPage()[pri:4, instance:uiAutomation.TestOrangeHrmUsingSelenium@31304f14]" started-at="2022-03-09T23:01:03 IST" name="testPunchInAndOutPage" finished-at="2022-03-09T23:01:24 IST" duration-ms="20703" status="PASS">
+        <test-method signature="testPunchInAndOutPage()[pri:4, instance:uiAutomation.TestOrangeHrmUsingSelenium@6302bbb1]" started-at="2022-03-09T23:09:41 IST" name="testPunchInAndOutPage" finished-at="2022-03-09T23:10:02 IST" duration-ms="20528" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPunchInAndOutPage -->
-        <test-method signature="testOverlappingMessage()[pri:5, instance:uiAutomation.TestOrangeHrmUsingSelenium@31304f14]" started-at="2022-03-09T23:01:24 IST" name="testOverlappingMessage" finished-at="2022-03-09T23:01:25 IST" duration-ms="1141" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <input materializecss-input="" id="time" sf-changed="form" type="text" placeholder="HH:MM" ng-disabled="form.readonly" schema-validate="form" ng-model="model['time']" ng-model-options="form.ngModelOptions" ohrm-make-element-non-pristine="form.removePristine" ng-attr-autocomplete="{{form.autocompleteOff}}" class="ng-touched ng-dirty ng-valid-punch-out-time ng-valid-overlapping-records ng-not-empty ng-valid-parse ng-valid-required-for-dirty ng-valid-time-format ng-valid-schema-form ng-pending" style=""> is not clickable at point (726, 205). Other element would receive the click: <div id="preloader" class="center-align loading">...</div>
-  (Session info: chrome=99.0.4844.51)
-Build info: version: '4.1.2', revision: '9a5a329c5a'
-System info: host: 'EPINHYDW0D30', ip: '192.168.8.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [01a6fcf5046ce2c224617317037f1223, clickElement {id=7e4c64ea-4348-49f5-9e39-f5392224ea35}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606..., userDataDir: C:\Users\RAHUL_~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50454}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50454/devtoo..., se:cdpVersion: 99.0.4844.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (01a6fcf5046ce2c224617317037f1223)] -> xpath: //input[@id='time']]
-Session ID: 01a6fcf5046ce2c224617317037f1223]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input materializecss-input="" id="time" sf-changed="form" type="text" placeholder="HH:MM" ng-disabled="form.readonly" schema-validate="form" ng-model="model['time']" ng-model-options="form.ngModelOptions" ohrm-make-element-non-pristine="form.removePristine" ng-attr-autocomplete="{{form.autocompleteOff}}" class="ng-touched ng-dirty ng-valid-punch-out-time ng-valid-overlapping-records ng-not-empty ng-valid-parse ng-valid-required-for-dirty ng-valid-time-format ng-valid-schema-form ng-pending" style=""> is not clickable at point (726, 205). Other element would receive the click: <div id="preloader" class="center-align loading">...</div>
-  (Session info: chrome=99.0.4844.51)
-Build info: version: '4.1.2', revision: '9a5a329c5a'
-System info: host: 'EPINHYDW0D30', ip: '192.168.8.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [01a6fcf5046ce2c224617317037f1223, clickElement {id=7e4c64ea-4348-49f5-9e39-f5392224ea35}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606..., userDataDir: C:\Users\RAHUL_~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50454}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50454/devtoo..., se:cdpVersion: 99.0.4844.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (01a6fcf5046ce2c224617317037f1223)] -> xpath: //input[@id='time']]
-Session ID: 01a6fcf5046ce2c224617317037f1223
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
-at uiAutromation.pages.PunchInAndOut.overlappingMessageVerification(PunchInAndOut.java:80)
-at uiAutomation.TestOrangeHrmUsingSelenium.testOverlappingMessage(TestOrangeHrmUsingSelenium.java:98)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:808)
-at org.testng.TestRunner.run(TestRunner.java:603)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-at org.testng.TestNG.runSuites(TestNG.java:1092)
-at org.testng.TestNG.run(TestNG.java:1060)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testOverlappingMessage -->
       </class> <!-- uiAutomation.TestOrangeHrmUsingSelenium -->
     </test> <!-- PunchInOut -->
   </suite> <!-- TestOrangeHRM -->

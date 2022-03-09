@@ -8,8 +8,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
 
-import uiAutomation.PomOrangeHrm;
-
 public class Dashboard {
 	
 	private final WebDriver driver;
@@ -41,6 +39,7 @@ public class Dashboard {
 		return this;
 	}
 	
+
 	//Navigating to attendance sheet
 	public AttendanceSheet clickAttendanceSheetAndVerifyUrl() throws InterruptedException
 	{
