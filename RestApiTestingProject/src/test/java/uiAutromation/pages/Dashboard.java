@@ -2,11 +2,14 @@ package uiAutromation.pages;
 
 import static org.testng.Assert.assertTrue;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
+
+import com.paulhammant.ngwebdriver.NgWebDriver;
 
 public class Dashboard {
 	
@@ -22,6 +25,8 @@ public class Dashboard {
 	@FindBy(xpath="//span[text()='Punch In/Out']")
 	private WebElement punchInOut;
 	
+	JavascriptExecutor js;
+	NgWebDriver ngDriver;
 	
 	
 	public Dashboard(WebDriver driver)
@@ -30,6 +35,9 @@ public class Dashboard {
 		
 		AjaxElementLocatorFactory factory=new AjaxElementLocatorFactory(driver,10);
 		PageFactory.initElements(factory, this);
+		
+		js=(JavascriptExecutor) driver;
+		ngDriver=new NgWebDriver(js);
 	}
 	
 	
@@ -46,7 +54,8 @@ public class Dashboard {
 		this.attendanceSheet.click();
 		
 		assertTrue(driver.getCurrentUrl().endsWith("my_attendance_sheet"));
-		Thread.sleep(5000);
+		//Thread.sleep(5000);
+		//ngDriver.waitForAngularRequestsToFinish();
 		
 		return new AttendanceSheet(driver);
 	}
@@ -54,7 +63,7 @@ public class Dashboard {
 	// Navigating to PunchInAndOutPage
 	public PunchInAndOut clickPunchInOutAndVerifyUrl() throws InterruptedException {
 		this.punchInOut.click();
-		Thread.sleep(5000);
+		//Thread.sleep(5000);
 		// assertTrue(driver.getCurrentUrl().endsWith("my_punch_in_out"));
 		return new PunchInAndOut(driver);
 	}

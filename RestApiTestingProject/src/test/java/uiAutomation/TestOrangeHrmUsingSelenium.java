@@ -51,44 +51,53 @@ public class TestOrangeHrmUsingSelenium {
 	}
 	
 	@Test(priority=2)
-	public void testDashboardPage() throws InterruptedException
+	public void testDeletePunchInOutRecordsAndGetTotalHoursBeforePunch() throws InterruptedException
 	{
 		Dashboard dashboard=new Dashboard(driver);
 		dashboard.clickAttendanceButton()
-					.clickAttendanceSheetAndVerifyUrl();
+					.clickAttendanceSheetAndVerifyUrl() //this method will navigate to AttendanceSheet Page
+		
+					.deletePunchInandPunchoutOperations()
+
+					.getTotalHoursBeforePunchInAndOut();
 	}
 	
 	@Test(priority=3)
-	public void testAttendanceSheetPage() throws InterruptedException
+	public void testPunchInOutAndVerifyPunchOutTimeGreaterThanPunchInTime() throws InterruptedException
 	{
 		Dashboard dashboard=new Dashboard(driver);
 
-		dashboard.clickPunchInOutAndVerifyUrl();
-	}
-	
-	@Test(priority=4)
-	public void testPunchInAndOutPage() throws InterruptedException
-	{
-		PunchInAndOut punchInAndOut=new PunchInAndOut(driver);
-		punchInAndOut.providingPunchIn("Fri, 18 Mar 2022", "10:00")
+		dashboard.clickPunchInOutAndVerifyUrl() //this method will navigate to PunchInAndOut page 
+		
+					.providingPunchIn("Fri, 18 Mar 2022", "10:00")
+					.verifyPunchOutTimeShouldbeGreaterThanPunchInTime("Fri, 18 Mar 2022", "09:00")
 					.providingPunchOut("Fri, 18 Mar 2022", "16:00");
+					
+		
 	}
 	
-	
-	//@Test(priority=5)
+
+	@Test(priority=4)
 	public void testOverlappingMessage() throws InterruptedException
 	{
+		
 		PunchInAndOut punchInAndOut=new PunchInAndOut(driver);
 		punchInAndOut
-					  .overlappingMessageVerification("Overlapping records found","10:01");
+					 .overlappingMessageVerification("10:01");
 	}
 	
 	
-	//@Test(priority=5)
-	public void testPayHours()
+	
+	@Test(priority=5)
+	public void testTotalHoursAfterPunchAndVerify() throws InterruptedException
 	{
 		Dashboard dashboard=new Dashboard(driver);
+		dashboard 
+				.clickAttendanceSheetAndVerifyUrl()//This method will navigate to AttendanceSheet Page
 		
-		//dashboard.clickAttendanceSheetAndVerifyUrl();
+			   .getTotalHoursAfterPunchInAndOut()
+			   .deletePunchInandPunchoutOperations()
+			   .verifyTotalHours();
 	}
+	
 }

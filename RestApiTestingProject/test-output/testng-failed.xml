@@ -10,7 +10,9 @@
     <classes>
       <class name="uiAutomation.TestOrangeHrmUsingSelenium">
         <methods>
+          <include name="testPunchInOutAndVerifyPunchOutTimeGreaterThanPunchInTime"/>
           <include name="testOverlappingMessage"/>
+          <include name="testTotalHoursAfterPunchAndVerify"/>
           <include name="setup"/>
         </methods>
       </class> <!-- uiAutomation.TestOrangeHrmUsingSelenium -->

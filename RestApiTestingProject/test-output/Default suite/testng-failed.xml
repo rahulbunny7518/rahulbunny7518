@@ -3,17 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestAutomation.RestApiTestingProject.TestOrangeHRM">
+      <class name="uiAutomation.TestOrangeHrmUsingSelenium">
         <methods>
+          <include name="testPunchInOutAndVerifyPunchOutTimeGreaterThanPunchInTime"/>
+          <include name="testOverlappingMessage"/>
+          <include name="testLoginPage"/>
           <include name="setup"/>
-          <include name="testPunchOut"/>
-          <include name="testAttendanceSheet"/>
-          <include name="testPunchIn"/>
-          <include name="testPunchInOutConfig"/>
-          <include name="testAttendanceSheetWithIdResponse"/>
-          <include name="testDelete"/>
+          <include name="testTotalHoursAfterPunchAndVerify"/>
+          <include name="testDeletePunchInOutRecordsAndGetTotalHoursBeforePunch"/>
         </methods>
-      </class> <!-- TestAutomation.RestApiTestingProject.TestOrangeHRM -->
+      </class> <!-- uiAutomation.TestOrangeHrmUsingSelenium -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
